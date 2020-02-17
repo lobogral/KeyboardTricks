@@ -4,7 +4,6 @@ ShortCut | Descripción
 <kbd>⊞</kbd>                    | Abre Menu inicio y el buscador
 <kbd>⊞</kbd> + <kbd>L</kbd>     | Bloquea el dispositivo
 <kbd>⊞</kbd> + <kbd>M</kbd>     | Minimiza todas las ventanas abiertas
-<kbd>⊞</kbd> + <kbd>T</kbd>     | Recorre las aplicaciones de la barra de tareas
 <kbd>⊞</kbd> + <kbd>ImpPt</kbd> | Imprime la pantalla y lo guarda en un archivo .png
 <kbd>⊞</kbd> + <kbd>Up</kbd>    | Maximiza la ventana
 <kbd>⊞</kbd> + <kbd>Down</kbd>  | Minimiza la ventana
@@ -23,5 +22,9 @@ ShortCut | Descripción
 <kbd>⊞</kbd> + <kbd>P</kbd>     | Abre el proyector para conectar a pantallas externas
 <kbd>⊞</kbd> + <kbd>R</kbd>     | Muestra el ejecutador
 <kbd>⊞</kbd> + <kbd>U</kbd>     | Ejecuta las configuraciones de accesibilidad
+<kbd>⊞</kbd> + <kbd>T</kbd>     | Recorre las aplicaciones de la barra de tareas
 <kbd>⊞</kbd> + <kbd>+</kbd>     | Acerca la pantalla adonde esta el puntero
 <kbd>⊞</kbd> + <kbd>-</kbd>     | Aleja la pantalla
+
+# Fuente:
+https://support.microsoft.com/en-us/help/12445/windows-keyboard-shortcuts
