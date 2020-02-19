@@ -27,4 +27,4 @@ ShortCut | Descripción
 <kbd>⊞</kbd> + <kbd>-</kbd>     | Aleja la pantalla
 
 # Fuente:
-https://support.microsoft.com/en-us/help/12445/windows-keyboard-shortcuts
+https://support.microsoft.com/es-co/help/12445/windows-keyboard-shortcuts
