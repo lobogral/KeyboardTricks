@@ -7,6 +7,7 @@ ShortCut | Descripción
 <kbd>f</kbd>                      | Mute
 <kbd>,</kbd>                      | Un frame atras si el video esta pausado
 <kbd>.</kbd>                      | Un frame adelante si el video esta pausado
+<kbd>}</kbd>                      | Activa la barra de busqueda
 <kbd>num</kbd>                    | Va a una parte del video desde el inicio hasta el final
 
 # Fuente:
