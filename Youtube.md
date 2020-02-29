@@ -1,7 +1,6 @@
 # Comandos video:
 ShortCut | Descripción
 -|-
-<kbd>k</kbd>                      | Reproduce o pausa
 <kbd>i</kbd>                      | Reproductor en miniatura
 <kbd>f</kbd>                      | Pantalla completa
 <kbd>m</kbd>                      | Mute
@@ -10,6 +9,7 @@ ShortCut | Descripción
 <kbd>}</kbd>                      | Activa la barra de busqueda
 <kbd>num</kbd>                    | Va a una parte desde el inicio hasta el final
 <kbd>tab</kbd>                    | Navega entre los videos
+<kbd>Space</kbd>                      | Reproduce o pausa
 <kbd>shift</kbd> + <kbd>}</kbd>   | Activa los shortcuts de youtube
 
 # Fuente:
