@@ -11,6 +11,7 @@ ShortCut | Descripción
 <kbd>.</kbd>                      | Un frame adelante si esta pausado
 <kbd>}</kbd>                      | Activa la barra de busqueda
 <kbd>num</kbd>                    | Va a una parte desde el inicio hasta el final
+<kbd>shift</kbd> + <kbd>}</kbd>   | Activa los shortcuts de youtube
 
 # Fuente:
 https://support.google.com/youtube/answer/7631406?hl=es-419
