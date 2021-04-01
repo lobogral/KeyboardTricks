@@ -1,0 +1,10 @@
+i -> Reproductor en miniatura
+f -> Pantalla completa
+m -> Mute
+, -> Un frame atras si esta pausado
+. -> Un frame adelante si esta pausado
+} -> Activa la barra de busqueda
+num -> Va a una parte desde el inicio hasta el final
+tab -> Navega entre los videos
+Space -> Reproduce o pausa
+shift + } -> Activa los shortcuts de youtube
