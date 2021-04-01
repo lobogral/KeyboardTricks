@@ -1,0 +1,27 @@
+------------------- Comandos generales ---------------------------
+tmux -> Activa la aplicación tmux
+(Nota, si se entra en el directorio, las sesiones se crean allí)
+tmux -V -> Obtiene la versión de tmux
+tmux kill-session -> Elimina todas las sesiones 
+Ctrl+b, s -> Navega entre sesiones, ventanas y paneles
+
+------------------ Comandos sobre ventanas -----------------------
+Ctrl+b, c -> Crea nueva ventana
+Ctrl+b, , -> Renombra ventana
+Ctrl+b, num -> Navegar entre ventanas
+Ctrl+b, & -> Cierra la ventana
+
+------------------ Comandos de scroll ----------------------------
+Ctrl+b, [ -> Entra al modo copia
+
+==> Copiar
+Ctrl+Space -> Establece el inicio de la selección
+Ctrl+w -> Establece el final y agrega al portapapeles
+Ctrl+b, ] -> Pega el texto
+
+==> Buscar
+Ctrl+s+Enter+textoActual -> Busca textoActual
+n -> Va al siguiente textoActual
+
+==> Salir
+q -> Sale del modo copia
