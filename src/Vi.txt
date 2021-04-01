@@ -1,0 +1,45 @@
+Esc -> Entra al modo comandos
+i -> Entra a modo inserción
+v -> Entra a modo visual o selección
+Ctrl + n -> Autocompletado
+
+------------------------- Navegación ----------------------------------
+w -> Pasa a la palabra siguiente en la línea actual
+b -> Pasa a la palabra anterior en la línea actual
+G -> Desplaza a la línea 1 del archivo
+
+------------------------- Editar texto --------------------------------
+dw -> Borra una palabra, si el cursor está al inicio de esta
+yw -> Copia una palabra, si el cursor está al inicio de esta
+d+d -> Borra una línea
+y+y -> Copia una línea
+u -> Deshacer el último cambio
+p -> Pega una o varias líneas
+
+------------------------- Repetición ----------------------------------
+num + Command -> Realiza el comando n veces
+
+------------------------- Operaciones set -----------------------------
+:set nu -> Muestra el número de líneas
+:set nonu -> Deshace el comando
+:set list -> Muestra tabulaciones (^I) y fin de línea ($)
+:set nolist -> Deshace el comando
+:set paste -> Se usa cuando se pega de forma identada
+:set nopaste -> Desactiva el anterior
+
+------------------------- Sobre buffers (Archivos en memoria) ---------
+:e + ^I -> Abre un buffer para editar
+:ls -> Muestra los buffers
+:b + num -> Pasa al buffer escogido
+:bn -> Va al siguiente buffer
+:bw -> Cierra buffer
+
+------------------------- Buscar --------------------------------------
+/+Word+Enter -> Busca una palabra, n -> Siguiente palabra encontrada
+:history -> Muestra el historial de comandos aplicados
+
+------------------------- Salir ---------------------------------------
+:q -> Sale del editor
+:q! -> Sale sin guardar
+:w -> Guarda los cambios
+:wq -> Guarda los cambios y sale
