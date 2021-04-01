@@ -1,0 +1,10 @@
+⊞ -> Abre Menu inicio y el buscador
+⊞ + L -> Bloquea el dispositivo
+⊞ + M -> Minimiza todas las ventanas abiertas
+⊞ + Up -> Maximiza la ventana
+⊞ + Down -> Minimiza la ventana
+⊞ + Left -> Acomoda la ventana a izquierda
+⊞ + Right -> Acomoda la ventana a derecha
+⊞ + ImpPt -> Imprime la pantalla y lo guarda en un archivo .png
+⊞, Tab -> Accede a opción para apagar
+AltGr + Tab -> Abre un menú de las aplicaciones de la barra de tareas
