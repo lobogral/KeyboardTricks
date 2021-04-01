@@ -1,0 +1,71 @@
+git init -> Inicializa un proyecto nuevo
+git status -> Ve el estado de los archivos
+git clone urlRepo -> Baja el código desde la repo al pc
+git diff -> Para ver las diferencias hechas en los archivos
+git pull -> Permite actualizar la rama local desde la remota
+git reset --hard idCommit -> Deshace los commits siguientes a idCommit
+git blame -> Muestra en un archivo quien hizo el commit
+git --help -> Muestra la ayuda de git
+
+----------------------- Push -----------------------------------------------------------------
+git push origin nombreRama -f -> Actualiza forzosamente la rama nombreRama desde la local 
+git push origin nombreRama -> Actualizar la rama nombreRama desde la local
+
+----------------------- Config ---------------------------------------------------------------
+git config --global user.email -> Configura el email del usuario
+git config --global user.name -> Configura el nombre del usuario
+
+----------------------- Log ------------------------------------------------------------------
+git log -> Para ver todos los commits, con:
+>> Id
+>> Autor
+>> Fecha
+>> Nombre
+==> --oneline -> Para ver todos los commits, con:
+>> Id abreviado
+>> Nombre
+==> --graph -> Para ver los commits en forma de árbol
+==> -n -> Para ver los últimos n commits
+
+----------------------- Add ------------------------------------------------------------------
+git add nombreArchivo -> Agrega o modifica nombreArchivo al staging area
+git add . -> Agrega o modifica todos los archivos al staging area
+
+----------------------- Commit ---------------------------------------------------------------
+git commit -m mensajeCommit -> Crea el punto de control sin entrar a un editor
+git commit --amend -> Agrega cambios al commit anterior
+git commit --amend --author “nombreAutor <correoAutor>“ -> Cambia el autor del commit
+git commit --amend -m “nombreCommit” -> Cambia el mensaje del commit 
+
+----------------------- Branch ---------------------------------------------------------------
+git branch -> Muestra las ramas locales
+git branch -a -> Muestra las ramas locales y globales
+git branch -D -> Elimina una rama local
+git branch nombreRama -> Crea la rama nombreRama 
+git branch -m <nombreAnteior> <nuevoNombre> -> Cambia el nombre de la rama
+
+----------------------- Checkout -------------------------------------------------------------
+git checkout -- nombreArchivo -> Revertir los cambios de nombreArchivo
+git checkout -- . -> Revertir los cambios de todos los archivos
+git checkout nombreRama -> Se puede mover a nombreRama
+git checkout idCommit -- nombreArchivo -> Revierte los cambios de nombreArchivo en idCommit
+git checkout -b nombreRama -> Crea la rama nombreRama y se mueve hacia ella
+git checkout - -> Se pasa a la rama antes de hacer checkout
+git checkout idCommit -> Se devuelve al commit idCommit
+
+----------------------- Rebase ---------------------------------------------------------------
+
+------ Sobre otra rama
+git rebase ramaParaRebasar -> Actualiza la rama actual respecto a ramaParaRebasar
+
+------ Sobre sí mismo
+git rebase -i idCommit, en archivo cambiar pick por: 
+==> edit -> Modificar los commits actuales
+==> squash -> Aplasta los commits que siguen
+==> reword -> Cambia el mensaje de los commits actuales
+==> drop -> Elimina el commit
+
+------ Dentro del rebase
+git rebase --skip -> Deja el commit sin guardar cambios
+git rebase --continue -> Deja el commit guardando los cambios
+git rebase --abort -> Abandona el rebase
