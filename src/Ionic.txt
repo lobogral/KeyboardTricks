@@ -1,0 +1,17 @@
+--------------- Creación ------------------------------------------------------------------------
+ionic start nombreProyecto -> Crea el proyecto nombreProyecto
+ionic g page nombrePágina -> Crea la página nombrePágina
+ionic g provider nombreProvider -> Crea el provider nombreProvider
+
+--------------- Ejecución -----------------------------------------------------------------------
+ionic cordova run android -lc -> Ejecuta el código en un dispositivo android con consola
+ionic cordova run android -> Ejecuta el código en un dispositivo android
+ionic cordova run browser -> Ejecuta el código en el navegador
+ionic cordova platform add nombrePlataforma -> Agrega la plataforma de ejecución nombrePlataforma
+ionic cordova platform rm nombrePlataforma -> Remueve la plataforma de ejecución nombrePlataforma
+
+--------------- Recursos ------------------------------------------------------------------------
+ionic cordova resources -> Agrega el icono y el splash correspondiente a la aplicación
+
+--------------- Ayuda ---------------------------------------------------------------------------
+ionic --help -> Muestra la ayuda de ionic
