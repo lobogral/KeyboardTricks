@@ -1,0 +1,11 @@
+Ctrl + w -> Corta una palabra y la agrega al portapapeles
+Ctrl + u -> Corta una línea y la agrega al portapapeles
+Ctrl + y -> Pega lo que hay en el portapapeles
+
+Ctrl + q -> Descongela la pantalla
+Ctrl + s -> Congela la pantalla
+Ctrl + m -> Ejecuta un comando
+Ctrl + r -> Busca un comando
+Ctrl + d -> Sale del terminal
+Ctrl + + -> Aumenta el zoom del terminal
+Ctrl + - -> Disminuye el zoom del terminal
