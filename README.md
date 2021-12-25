@@ -9,3 +9,4 @@ Muestra atajos de teclado básicos (Sistemas operativos, páginas web, aplicacio
 * [Vi](src/Vi.txt)
 * [Windows 10](src/Windows.txt)
 * [Youtube](src/Youtube.txt)
+* [Pip](src/Pip.txt)
