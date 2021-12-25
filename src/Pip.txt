@@ -1,0 +1,5 @@
+pip list -> Lista los paquetes instalados de forma en tabla
+pip freeze -> Lista los paquetes instalados de forma simple
+pip install paquete -> Instala el paquete correspondiente
+pip uninstall paquete -> Desinstala el paquete correspondiente
+pip freeze > unins && pip uninstall -y -r unins && del unins -> Elimina todos los paquetes
