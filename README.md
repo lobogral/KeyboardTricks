@@ -1,5 +1,7 @@
 # Descripción
-Muestra atajos de teclado básicos (Sistemas operativos, páginas web, aplicaciones, etc.)
+Muestra atajos de teclado.
+
+Los atajos son de elementos como: sistemas operativos, páginas web, aplicaciones, etc.
 
 # Listado
 * [Bash](src/Bash.txt)
